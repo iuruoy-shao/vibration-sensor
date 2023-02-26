@@ -1,6 +1,7 @@
 # Vibration Sensor
 ## Additional Infromation
 Download the ADS driver [here](https://github.com/robert-hh/ads1x15).
+
 Written in conjunction with this repository, hardware setup information can be found on Instructable here.
 
 ## Explaining the Code
