@@ -1,5 +1,7 @@
 # Vibration Sensor
+## Additional Infromation
 Download the ADS driver [here](https://github.com/robert-hh/ads1x15).
+Written in conjunction with this repository, hardware setup information can be found on Instructable here.
 
 ## Explaining the Code
 A driver is needed to establish a connection between the analog to digital convert (ADC) and the Raspberry Pico. We will  be using the [Driver for the ADS1015/ADS1115 Analogue-Digital Converter](https://github.com/robert-hh/ads1x15), and incorporating the given [sample code](https://github.com/robert-hh/ads1x15#sample-code):
@@ -99,5 +101,3 @@ while True:
         cl.close()
         print('connection closed')
 ```
-## Additional Material
-Hardware setup information can be found on Instructable here.
